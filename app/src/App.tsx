@@ -6,7 +6,7 @@ import { Home } from "./pages";
  * @author anwer nouri
  * @license MIT
  * @description  REACT main App component
- * @returns jsx element
+ * @returns JSX Element
  */
 
 const App: React.FC = (): JSX.Element => <Home />;

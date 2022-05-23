@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
+import { Intro } from "../../components";
 
-const Home: React.FC = (): JSX.Element=>(<div>d</div>)
+const Home: React.FC = (): JSX.Element => <Intro />;
 
-
-
-export default Home
+export default Home;
