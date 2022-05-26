@@ -1,5 +1,23 @@
 @font-face
 	font-family: Oxygen
-	src: url("../../fonts/oxygen/Oxygen-Bold.ttf") format("truetype")
-	src: url("../../fonts/oxygen/Oxygen-Light.ttf") format("truetype")
 	src: url("../../fonts/oxygen/Oxygen-Regular.ttf") format("truetype")
+
+a
+	color: var.$magenta
+	&:hover
+		color: var.$hotmag
+
+#intro 
+	& p 
+		font-size: 1rem
+		line-height: 1.5
+	& .name
+		font-family: var.$mono
+		& span
+			font-family: var.$sans
+			font-size: 4rem
+			color: var.$aqua
+			display: block
+	& h2
+		font-size: 4rem
+		font-weight: normal
