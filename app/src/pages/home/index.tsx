@@ -1,6 +1,11 @@
 import React from "react";
-import { Intro } from "../../components";
+import { Intro, Contact } from "../../components";
 
-const Home: React.FC = (): JSX.Element => <Intro />;
+const Home: React.FC = (): JSX.Element => (
+	<>
+		<Intro />
+		<Contact />
+	</>
+);
 
 export default Home;
