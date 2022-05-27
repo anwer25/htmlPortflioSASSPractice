@@ -1,4 +1,4 @@
 /**
  * @description export all components from section folder
  */
-export * from './sections'
+export * from "./sections";
