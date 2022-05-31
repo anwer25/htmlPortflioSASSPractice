@@ -1,8 +1,9 @@
 import React from "react";
-import { Intro, Contact } from "../../components";
+import { Navbar,Intro, Contact } from "../../components";
 
 const Home: React.FC = (): JSX.Element => (
 	<>
+		<Navbar />
 		<Intro />
 		<Contact />
 	</>
