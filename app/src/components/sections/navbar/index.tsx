@@ -16,7 +16,7 @@ const NavBar: React.FC = (): JSX.Element => (
 				</a>
 			</li>
 			<li>
-				<a href="#projects">Projects</a>
+				<a href="/projects">Projects</a>
 			</li>
 			<li>
 				<a href="#about">About</a>
@@ -25,17 +25,17 @@ const NavBar: React.FC = (): JSX.Element => (
 				<a href="#contact">Contact</a>
 			</li>
 			<li>
-				<a href="http://">
+				<a href="https://www.linkedin.com/in/anwer-nouri-7a3714164/">
 					LinkedIn
 				</a>
 			</li>
 			<li>
-				<a href="http://">
-					GitHub
-				</a>
+				<a href="https://github.com/anwer25">GitHub</a>
 			</li>
 			<li>
-				<a className="button" href="http://">Resume</a>
+				<a className="button" href="http://">
+					Resume
+				</a>
 			</li>
 		</ul>
 	</nav>

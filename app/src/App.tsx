@@ -1,6 +1,5 @@
 import React from "react";
-import { Home } from "./pages";
-
+import { Routess } from "./pages";
 
 /**
  * @author anwer nouri
@@ -9,6 +8,6 @@ import { Home } from "./pages";
  * @returns JSX Element
  */
 
-const App: React.FC = (): JSX.Element => <Home />;
+const App: React.FC = (): JSX.Element => <Routess />;
 
 export default App;

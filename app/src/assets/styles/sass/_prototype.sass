@@ -30,18 +30,17 @@ a
 		margin: 2rem 0
 	& h3
 		font-size: 2rem
+	& a
+		font-family: var.$mono
+		color: var.$white
+		@include buttons
 
 nav, footer
 	font-family: var.$mono
 	font-size: 80%
 
 	& .button
-		background-color: var.$magenta
-		padding: 0.5rem
-		border-radius: 5px
-		&:hover
-			color: var.$white
-			background-color: var.$hotmag
+		@include buttons
 
 footer
 	& ul
