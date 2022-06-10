@@ -11,7 +11,7 @@ const NavBar: React.FC = (): JSX.Element => (
 	<nav>
 		<ul>
 			<li>
-				<a href="/home">
+				<a href="/">
 					<h1>anwer nouri</h1>
 				</a>
 			</li>
